@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+    font-family: 'Barlow', sans-serif;
+}
+
+:root {
+    --PrimaryColor :#0d6efd;
+}
+
+/* Default code */
+
+/* .formContainer {
+    background-color: antiquewhite;
+} */
+
+.validationForm {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: auto;
+    padding-left: 40px;
+    border: 1px solid gray;
+    margin-left: 30%;
+}
+
+.validationForm h3 {
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+}
+
+td input {
+    width: 70%;
+    padding: 5px 20px;
+}
+
+td select {
+    width: 70%;
+    padding: 5px 30px;
+}
+
+.info-symbol {
+    padding: 0 2px;
+    background-color: #0d6efd;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+td input[type="checkbox"] {
+    width: 20px;
+}
