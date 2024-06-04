@@ -64,7 +64,8 @@ td select {
 }
 
 .info-symbol {
-    padding: 0 2px;
+    padding: 0 5px;
+    font-size: 14px;
     background-color: #0d6efd;
     color: white;
     border: 1px solid blue;
